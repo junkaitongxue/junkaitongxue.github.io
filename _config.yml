@@ -1,11 +1,11 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: KaiBlog
+description: KaiBlog is a minimal yet powerful Jekyll theme for your blogs and websites.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "/kaiblog/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://dreamkite.com/" # the base hostname & protocol for your site
 
 pagination:
 
@@ -47,13 +47,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
+username: junkaitongxue #github username
 repo: hanuman #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
+relative_source: ../kaiblog/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url:  https://dreamkite.com/
+source_url:  https://github.com/dreamkite/kaiblog #source repository url
 
 exclude:
   - README.md
